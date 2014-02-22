@@ -1,0 +1,29 @@
+;;;Test Functions for Class 3/19/2013;;;
+
+;;;Simulated Annealing;;;
+(sa (make-instance 'schaffer))
+(sa (make-instance 'fonseca))
+(sa (make-instance 'viennet2))
+(sa (make-instance 'kursawe))
+(sa (make-instance 'zdt1))
+;;;Standard Genetic Algorithm;;;
+(ga (make-instance 'schaffer))
+(ga (make-instance 'fonseca))
+(ga (make-instance 'viennet2))
+(ga (make-instance 'kursawe))
+(ga (make-instance 'zdt1))
+;;;Differential Evolution;;;
+(de (make-instance 'schaffer))
+(de (make-instance 'fonseca))
+(de (make-instance 'viennet2))
+(de (make-instance 'kursawe))
+(de (make-instance 'zdt1))
+;;;Differential Evolution w/NSGA-ii Crowd Pruning;;;
+(de2 (make-instance 'schaffer))
+(de2 (make-instance 'fonseca))
+(de2 (make-instance 'viennet2))
+(de2 (make-instance 'kursawe))
+(de2 (make-instance 'zdt1))
+;;;Plotting;;;
+(de_plotz)
+(de2_plotz)
